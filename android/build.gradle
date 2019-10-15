@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion safeExtGet('targetSdkVersion', 22)
+        targetSdkVersion safeExtGet('targetSdkVersion', 27)
     }
     buildTypes {
         release {
@@ -22,5 +22,5 @@ android {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.google.android.gms:play-services-ads:+'
+    implementation 'com.google.android.gms:play-services-ads:16.0.0'
 }
